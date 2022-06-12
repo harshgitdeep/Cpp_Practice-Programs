@@ -14,4 +14,4 @@ cin>>b;
 sum=a+b;
 cout<<"Sum of "<<a<<" and "<<b<<" is = "<<sum;
 return 0;
-}
+} 
