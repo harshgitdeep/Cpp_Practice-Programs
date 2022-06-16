@@ -2,12 +2,14 @@
 using namespace std;
 
 int main(){
-    int a,b,c;
-    cout<<"Enter a b c = ";
-    cin>>a>>b>>c;
-
-  int z =(a>b)? ((a>c)?a:c) : (b>c)?b:c ;
-  cout<<z;
-
+    
+    int arr[5]={21,33,1,66,3};
+    int x=0;
+    for(int i=0;i<=5;i++){
+        if(arr[i]>x){
+            x=arr[i];
+        }
+        cout<<x<<" ";
+    }
     return 0;
 }
